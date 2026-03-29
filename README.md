@@ -2,8 +2,6 @@
 
 Early detection of infectious disease outbreaks can save lives. This system uses machine learning to predict **which countries are at risk of a case surge in the coming week**, combining epidemiological time-series data with demographics, vaccination rates, hospitalization strain, and excess mortality signals — giving public health teams an early warning before outbreaks accelerate.
 
----
-
 ## 📋 Deliverables Checklist (Track C)
 
 | Deliverable | Status | Details |
