@@ -1,0 +1,19 @@
+=== Primary metrics (imbalance-aware) ===
+PR-AUC: 0.2755
+F1 (outbreak class): 0.3368
+ROC-AUC: 0.9911
+Optimal threshold: 0.8455
+Val PR operating point: precision=0.351 recall=0.739 F1=0.476
+
+=== Secondary metrics (misleading at 66:1 imbalance) ===
+Accuracy: N/A  [baseline majority-class classifier: 98.52%]
+F1 (weighted): N/A
+
+              precision    recall  f1-score   support
+
+ No outbreak       1.00      0.99      0.99     53233
+    Outbreak       0.23      0.66      0.34       247
+
+    accuracy                           0.99     53480
+   macro avg       0.61      0.82      0.67     53480
+weighted avg       0.99      0.99      0.99     53480
